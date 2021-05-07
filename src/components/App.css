@@ -1,0 +1,45 @@
+.App{
+  min-height: 100vh;
+  background-image: linear-gradient(to right, crimson 0%, black 100%);
+}
+
+.cards{
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+}
+
+/* Header */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Orelega+One&display=swap');
+#icon{
+  font-family: 'Orelega One', cursive;
+  font-size: 30px;
+}
+#song{
+ overflow:scroll;
+ height:550px;
+}
+
+/* loader */
+
+.loader {
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #db3450;
+  width: 100px;
+  height: 100px;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
+}
+/*Safari */
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}

@@ -1,0 +1,30 @@
+#trasition{
+    transition: transform 1s;
+}
+
+#trasition:hover{
+    transform:scale(1.1);
+}
+
+
+
+#cards{
+    margin:5px; 
+    background-color:black;
+    height:130px;
+}
+
+#title p{
+    color:white;font-size:12px; height:80px;
+}
+
+#title p span{
+
+    color: crimson;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+#title audio{
+    height:25px
+}
