@@ -1,5 +1,5 @@
 #navhe{
-    height: 40px;
+    height: auto;
 }
 
 @media (min-height:800px)

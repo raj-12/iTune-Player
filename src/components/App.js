@@ -59,9 +59,14 @@ const App = () => {
           //  if(query.length>0 && data.results.length>0){
           //     setSongs(data.results);
           //  }
-          if(data!==null)
-           setSongs(data.results);
-               
+          if(data!==null){
+            setSongs(data.results);
+            console.log("success")
+          }else{
+            console.log("failssssssssssssssssss")
+
+          }
+                       
          });
       setLoading(false);
     };
