@@ -56,9 +56,11 @@ const App = () => {
            const data =  response.data;
 
            console.log(data)
-           if(query.length>0 && data.results.length>0){
-              setSongs(data.results);
-           }
+          //  if(query.length>0 && data.results.length>0){
+          //     setSongs(data.results);
+          //  }
+          if(data!==null)
+           setSongs(data.results);
                
          });
       setLoading(false);
