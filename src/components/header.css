@@ -1,0 +1,11 @@
+#navhe{
+    height: 40px;
+}
+
+@media (min-height:800px)
+{
+  #navhe
+  {
+    height: auto;
+  }
+}
