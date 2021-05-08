@@ -63,7 +63,7 @@ const App = () => {
             setSongs(data.results);
             console.log("success")
           }else{
-            console.log("failssssssssssssssssss")
+            console.log("fail")
 
           }
                        
