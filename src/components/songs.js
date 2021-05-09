@@ -1,10 +1,7 @@
 import React from "react";
 import {IntlProvider, FormattedMessage} from 'react-intl' // react-intl
 
-
 import './songs.css'
-
-
 
 const Songs = ({title,image,song,artistName,Date}) => {
     const messagesInFrench = {
@@ -28,7 +25,6 @@ const Songs = ({title,image,song,artistName,Date}) => {
                                      <FormattedMessage
                                         id="myMessage"
                                         defaultMessage="{ts, date, ::yyyyMM}"
-                                        // values={{ Date}}
                                      />
                                     </p>
                                 </IntlProvider>
@@ -39,10 +35,7 @@ const Songs = ({title,image,song,artistName,Date}) => {
                                 </audio>
                         </div>
 
-                        </div>
-                    {/* <div className="col-4 card-body"></div> */}
-
-                    
+                        </div>                    
                 </div>
         </div>
       

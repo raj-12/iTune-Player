@@ -20,6 +20,7 @@
 #song{
  overflow:scroll;
  height:90vh;
+ top:0; 
 }
 
 /* loader */

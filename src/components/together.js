@@ -18,13 +18,16 @@ export default function Together() {
       <div>
                 <Header/>
                     <br></br>
+
                 <Switch>
+                  
                     <Route path="/about">
-                        <Contact />
+                          <Contact />
                     </Route>
                     <Route path="/">
-                        <App />
+                          <App />
                     </Route>
+
                 </Switch>
     </div>
     </Router>

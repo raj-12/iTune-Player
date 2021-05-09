@@ -3,9 +3,8 @@ import ReactDOM from 'react-dom';
 
 import Together from './components/together';
 
-import './bootstrap.min.css';
+import './components/bootstrap.min.css';
 import './index.css';
-// import './bootstrap.min.js';
 
 
 import reportWebVitals from './reportWebVitals';

@@ -12,7 +12,7 @@ const SearchForm=styled.div`
   width: 50%;
   border: none;
   padding: 10px;
-  background-color:${props=>(props.load && props.inputs===0)?'#ed5454;':'none'};
+  background-color:none;
   font-weight:500;
   color:crimson;
 
